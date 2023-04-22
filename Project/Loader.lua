@@ -1,9 +1,9 @@
 
 
 local gamelist = {
-    [1335695570] = "", -- Ninja Legend
-    [1511883870] = "", -- Shindo Life
-    [210851291] = "", -- Build A Boat
+    [1335695570] = "https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Ninja.lua", -- Ninja Legend
+    [1511883870] = "https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Shindo.lua", -- Shindo Life
+    [210851291] = "https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Build.lua", -- Build A Boat
 }
 
 local namelist = {
@@ -24,6 +24,7 @@ if gamelist[gameid] then
     if gnamelist ~= "" or not gnamelist ~= nil then
         print("[Game]"..gnamelist)
         if checklist ~= "" or not checklist ~= nil then
+            print(checklist)
             loadstring(game:HttpGet(checklist))()
         end
     end
@@ -64,5 +65,5 @@ if
         placeId == 7524809704 or
         placeId == 7524811367
 then
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Shindo.lua"))()
 end
