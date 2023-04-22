@@ -2,13 +2,11 @@
 
 local gamelist = {
     [1335695570] = "https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Ninja.lua", -- Ninja Legend
-    [1511883870] = "https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Shindo.lua", -- Shindo Life
     [210851291] = "https://raw.githubusercontent.com/QuizScript/Foundation/main/Project/Game/Build.lua", -- Build A Boat
 }
 
 local namelist = {
     [1335695570] = "Ninja legend", 
-    [1511883870] = "Shindo life", 
     [210851291] = "Build a boat for treasure",
 }
 
