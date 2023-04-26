@@ -35,8 +35,6 @@ if gamelist[gameid] then
             loadstring(game:HttpGet(checklist))()
         end
     end
-else
-    return game.Players.LocalPlayer:Kick("not support!!")
 end
 
 -- Load [2]
